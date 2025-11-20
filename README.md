@@ -63,7 +63,7 @@ ecovista/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jonnelmlique/ecovista.git
    cd ecovista
    ```
 
@@ -163,7 +163,6 @@ The build process optimizes:
 - Component-level code splitting
 - Optimized images and assets
 - Minimal JavaScript bundle size
-
 ## 📄 License
 
-This project is for demonstration purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
