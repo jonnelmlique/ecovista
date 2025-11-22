@@ -96,11 +96,22 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-sm text-muted-foreground">
-              © {currentYear} EcoVista. All rights reserved.
+          <div className="flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0">
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-muted-foreground">
+              <div>© {currentYear} EcoVista. All rights reserved.</div>
+              <div className="flex items-center space-x-1">
+                <span>Made by</span>
+                <a 
+                  href="https://jonnelmlique.vercel.app/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-emerald-600 hover:text-emerald-700 font-medium transition-colors duration-300"
+                >
+                  Jonnel Lique
+                </a>
+              </div>
             </div>
-            <div className="flex space-x-6 text-sm">
+            <div className="flex flex-wrap justify-center lg:justify-end gap-x-6 gap-y-2 text-sm">
               {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((item) => (
                 <button
                   key={item}
